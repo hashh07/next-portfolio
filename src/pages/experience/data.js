@@ -5,6 +5,7 @@ export const data = [
     workType: "Full-time",
     workDescription: ["Working on big Finance website based on ReactJs"],
     dateText: "Sept 2022 – Present",
+    location: "Pune, India",
   },
   {
     title: "Software Engineer",
@@ -16,6 +17,7 @@ export const data = [
       "Apart from this, I made Slash shopping app from scratch, I designed UI components from figma with 99% accuracy with complex navigation structure & integrated rest API's",
     ],
     dateText: "Nov 2021 – Aug 2022",
+    location: "Pune, India",
   },
   {
     title: "ReactJs Developer",
@@ -26,6 +28,7 @@ export const data = [
       "Worked on a Cristian religious app called Calvary book center, where we can listen to books & read bible (React Native)",
     ],
     dateText: "Sept 2019 – Oct 2021",
+    location: "Hyderabad, India",
   },
 ];
 

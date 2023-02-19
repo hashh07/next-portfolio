@@ -19,7 +19,22 @@ function VerticalExp(props) {
               style={styles.itemStyle}
               bodyContainerStyle={{ color }}
             >
-              <h2 className="item-title">{item.title}</h2>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                  fontWeight: "600",
+                }}
+              >
+                <h2 className="item-title">{item.title}</h2>
+                <div
+                  className="item-title"
+                  style={{ marginTop: "5px", marginBottom: "5px" }}
+                >
+                  {item.location}
+                </div>
+              </div>
               <div style={styles.subtitleContainerStyle}>
                 <h4 style={{ ...styles.subtitleStyle, color: accentColor }}>
                   {item.subtitle}
