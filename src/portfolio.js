@@ -728,7 +728,7 @@ const contactPageData = {
     title: "Address",
     subtitle: "47, Telangi pacha peth, Solapur, Maharashtra - 413005",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    location_map_link: "17.6726975149483, 75.91645166307462",
   },
   phoneSection: {
     title: "",

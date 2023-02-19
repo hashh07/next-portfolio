@@ -19,6 +19,7 @@ export default function Button({ text, className, href, newTab, theme }) {
       <a
         class="main-button"
         href={href}
+        onClick={href}
         target={newTab && "_blank"}
         style={{
           color: theme.body,

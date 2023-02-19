@@ -18,6 +18,8 @@ const phoneSection = contactPageData.phoneSection;
 class Contact extends Component {
   render() {
     const theme = this.props.theme;
+    const lat = addressSection.location_map_link.split(",")[0];
+    const long = addressSection.location_map_link.split(",")[1];
     return (
       <div className="contact-main">
         <Header theme={theme} />
@@ -55,7 +57,7 @@ class Contact extends Component {
               </div>
             </div>
           </Fade>
-          <Fade bottom duration={1000} distance="40px">
+          {/* <Fade bottom duration={1000} distance="40px">
             <div className="blog-heading-div">
               <div className="blog-heading-text-div">
                 <h1 className="blog-heading-text" style={{ color: theme.text }}>
@@ -77,23 +79,12 @@ class Contact extends Component {
                 </div>
               </div>
               <div className="blog-heading-img-div">
-                {/* <img
-											src={require(`../../assests/images/${blogSection["avatar_image_path"]}`)}
-											alt=""
-										/> */}
                 <BlogsImg theme={theme} />
               </div>
             </div>
-          </Fade>
+          </Fade> */}
           <Fade bottom duration={1000} distance="40px">
             <div className="address-heading-div">
-              <div className="contact-heading-img-div">
-                {/* <img
-											src={require(`../../assests/images/${addressSection["avatar_image_path"]}`)}
-											alt=""
-										/> */}
-                <AddressImg theme={theme} />
-              </div>
               <div className="address-heading-text-div">
                 <h1
                   className="address-heading-text"
@@ -103,7 +94,7 @@ class Contact extends Component {
                 </h1>
                 <p
                   className="contact-header-detail-text subTitle"
-                  style={{ color: theme.secondaryText }}
+                  style={{ color: theme.secondaryText, marginTop: "20px" }}
                 >
                   {addressSection["subtitle"]}
                 </p>
@@ -123,10 +114,17 @@ class Contact extends Component {
                   <Button
                     text="Visit on Google Maps"
                     newTab={true}
-                    href={addressSection.location_map_link}
+                    href={() =>
+                      window.open(
+                        "https://maps.google.com?q=" + `${lat},` + `${long}`
+                      )
+                    }
                     theme={theme}
                   />
                 </div>
+              </div>
+              <div className="contact-heading-img-div">
+                <AddressImg theme={theme} />
               </div>
             </div>
           </Fade>
