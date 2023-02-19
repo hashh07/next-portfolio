@@ -7,6 +7,7 @@ import "./Experience.css";
 import { experience } from "../../portfolio.js";
 import { Fade } from "react-reveal";
 import ExperienceImg from "./ExperienceImg";
+import VerticalExp from "./VerticalExp";
 
 // const experience = {
 // 	title: "Experience",
@@ -184,6 +185,7 @@ class Experience extends Component {
           </Fade>
         </div>
         {/* <ExperienceAccordion sections={experience["sections"]} theme={theme} /> */}
+        <VerticalExp theme={this.props.theme} />
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
       </div>
