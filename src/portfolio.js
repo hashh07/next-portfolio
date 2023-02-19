@@ -504,21 +504,22 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I have worked two startups as Designer & Software Developer. I have also worked with some well knowned clients mostly as Software Developer. I love designing beautiful user interfaces and animate them as per modern world requirements.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work",
       experiences: [
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
+          title: "ReactJs Developer",
+          company: "TechnoDreams Advance Systems",
+          company_url:
+            "https://www.thecompanycheck.com/company/technodreams-advanced-systems-private-limited/U72200TG2019PTC136836",
+          logo_path: "td.png",
+          duration: "Sept 2019 - Oct 2021",
           location: "Hyderabad, Telangana",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "I was working as a Reactjs developer, I worked on multiple projects like, Customer relationship management website in NextJs framework.",
           color: "#0879bf",
         },
         {
