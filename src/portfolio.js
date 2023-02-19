@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "HasheerPeerzade",
   nickname: "hash",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A passionate individual who always thrives to work on Software products which gives user immense user interface experience",
   resumeLink:
     "https://drive.google.com/file/d/15j6SFlahueP6QeJTiCkeVlyidIB5ZVU1/view?usp=sharing",
   portfolio_repository: "https://github.com/hashh07",
